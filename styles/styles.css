@@ -11,6 +11,10 @@ p {
 }
 
 h1 {
+    margin: 0;
+    padding: 20px 0 20px 0px;
+    color: red;
+    text-shadow: 2px 2px 1px white;
     font-family: 'Wallpoet-Regular', sans-serif;
 }
 
@@ -22,4 +26,22 @@ a {
 a:hover {
     color: rgb(4, 248, 4);
     font-family: 'Wallpoet-Regular', sans-serif;
+}
+
+html {
+    background-color: blue;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
 }
