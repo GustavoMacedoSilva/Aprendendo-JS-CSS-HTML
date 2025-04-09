@@ -29,7 +29,10 @@ a:hover {
 }
 
 html {
-    background-color: blue;
+    background-image: url('../images/home_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 img {
