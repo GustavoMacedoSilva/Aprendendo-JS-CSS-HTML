@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Wallpoet-Regular';
+    src: url("fonts/Wallpoet-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    color : red;
+    font-family: 'Wallpoet-Regular', sans-serif;
+}
+
+h1 {
+    font-family: 'Wallpoet-Regular', sans-serif;
+}
+
+a {
+    color: blue;
+    font-family: 'Wallpoet-Regular', sans-serif;
+}
+
+a:hover {
+    color: rgb(4, 248, 4);
+    font-family: 'Wallpoet-Regular', sans-serif;
+}
