@@ -19,10 +19,103 @@ body.center {
     border: 5px solid black;
 }
 
-a.lb{
+a.band{
     color: blue;
+    text-decoration: none;
 }
-a.lb:hover{
+a.band:hover{
     color: red;
 }
 
+.custom-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.custom-list li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.custom-list li.lb::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/fred-durst-cap.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.custom-list li.sk::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/slipknot-symbol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.custom-list li.dt::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/white-pony.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.custom-list li.soad::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/soad.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.custom-list li.pj::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/pearl-jam-alive-logo-png-transparent.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.custom-list li.md::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/megadeth.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.custom-list li.a7x::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/avenged-sevenfold.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
