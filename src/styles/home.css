@@ -1,0 +1,28 @@
+h1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px 60px 0px;
+}
+
+html {
+    background-color: black;
+    height: 100%;
+    background: linear-gradient(0deg, black 0%, rgba(107, 107, 107, 1) 70%, rgba(196, 195, 195, 1) 100%);
+}
+
+body.center {
+    color: white;
+    margin : 0 auto;
+    width: 600px;
+    background-color: black;
+    padding: 0 20px 20px 0;
+    border: 5px solid black;
+}
+
+a.lb{
+    color: blue;
+}
+a.lb:hover{
+    color: red;
+}
+
