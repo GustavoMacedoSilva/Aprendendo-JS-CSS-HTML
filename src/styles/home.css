@@ -1,21 +1,27 @@
-h1{
+header{
+    color: black;
     margin: 0 auto;
     text-align: center;
-    padding: 20px 0px 60px 0px;
+    padding: 20px 0px 20px 0px;
+    width: 50%;
 }
 
-html {
-    background-color: black;
-    height: 100%;
-    background: linear-gradient(0deg, black 0%, rgba(107, 107, 107, 1) 70%, rgba(196, 195, 195, 1) 100%);
-}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(0deg, black 0%, #6b6b6b 70%, #c4c3c3 100%);
+    overflow-x: hidden;
+  }
+  
 
-body.center {
+main {
     color: white;
     margin : 0 auto;
-    width: 600px;
+    max-width: 800px;
+    width: 90%;
     background-color: black;
-    padding: 0 20px 20px 0;
+    padding: 20px 20px 20px 0;
     border: 5px solid black;
 }
 
@@ -119,3 +125,22 @@ a.band:hover{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+ul{
+    max-height: 60vh;
+    overflow-y: hidden;
+    width: 25%;
+}
+ul:hover{
+    overflow-y: auto;
+    transition: 0.5s;
+}
+
+.band-preview {
+    background-color: red;
+    width: 45%;
+    height: 40vh;
+    padding: 20px;
+    margin-top: -225px;
+    margin-left: 45%;
+  }
