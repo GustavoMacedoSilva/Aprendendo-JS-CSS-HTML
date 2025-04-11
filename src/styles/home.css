@@ -1,16 +1,33 @@
+@font-face {
+    font-family: 'RubikGlitch';
+    src: url('../../assets/fonts/RubikGlitch-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "NewRocker";
+    src: url('../../assets/fonts/NewRocker-Regular.ttf') format('truetype');
+}
+
 header{
     color: black;
     margin: 0 auto;
     text-align: center;
     padding: 20px 0px 20px 0px;
     width: 50%;
+    max-height: 15vh;
+}
+
+header h1{
+    font-family: 'NewRocker', sans-serif;
+    font-size: 70px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
 }
 
 html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(0deg, black 0%, #6b6b6b 70%, #c4c3c3 100%);
+    background: linear-gradient(0deg, black 10%, #6b6b6b 90%, #c4c3c3 100%);
     overflow-x: hidden;
   }
   
@@ -23,6 +40,7 @@ main {
     background-color: black;
     padding: 20px 20px 20px 0;
     border: 5px solid black;
+    border-radius: 10px;
 }
 
 a.band{
